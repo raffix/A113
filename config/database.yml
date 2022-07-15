@@ -12,8 +12,8 @@ development:
 
 test:
   <<: *default
-  database: A113_development
+  database: A113_test
 
 production:
   <<: *default
-  database: A113_development
+  database: A113_production
